@@ -9,7 +9,11 @@ const routes: Routes = [
   {
     path: '',
     component: CollectionsHomeComponent,
-    children: [{ path: '', component: BiographyComponent }, { path: 'co' }],
+    children: [
+      { path: '', component: BiographyComponent },
+      { path: 'companies', component: CompaniesComponent },
+      { path: 'partners', component: PartnersComponent },
+    ],
   },
 ];
 
