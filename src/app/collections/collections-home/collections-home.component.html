@@ -1,13 +1,16 @@
 <app-divider>Table Component</app-divider>
 <app-table class="striped celled" [data]="data" [headers]="headers"></app-table>
-
+<app-divider>Tab Menu</app-divider>
 <div class="ui grid">
   <div class="four wide column">
     <div class="ui vertical fluid tabular menu">
-      <a class="item"> Bio </a>
-      <a class="item"> Pics </a>
-      <a class="item"> Companies </a>
-      <a class="item active"> Links </a>
+      <a routerLink="" routerLinkActive="active" class="item"> Bio </a>
+      <a routerLink="companies" routerLinkActive="active" class="item">
+        Companies
+      </a>
+      <a routerLink="partners" routerLinkActive="active" class="item">
+        Partners
+      </a>
     </div>
   </div>
   <div class="twelve wide stretched column">
