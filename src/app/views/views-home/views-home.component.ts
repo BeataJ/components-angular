@@ -9,7 +9,7 @@ export class ViewsHomeComponent implements OnInit {
   stats = [
     { value: 22, label: '# of Users' },
     { value: 900, label: 'Revenue' },
-    { value: 50, label: 'Satsifaction Score' },
+    { value: 50, label: 'Reviews' },
   ];
 
   constructor() {}
