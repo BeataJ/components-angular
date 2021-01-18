@@ -8,8 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TableComponent implements OnInit {
   // tslint:disable-next-line:no-input-rename
   @Input('class') className = '';
-  @Input() data = [];
-  @Input() headers = [];
+  @Input() data: any = [];
+  @Input() headers: any = [];
 
   constructor() {}
 

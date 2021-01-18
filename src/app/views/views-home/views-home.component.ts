@@ -6,13 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./views-home.component.css'],
 })
 export class ViewsHomeComponent implements OnInit {
-  stats = [
+  stats: any = [
     { value: 22, label: '# of Users' },
     { value: 900, label: 'Revenue' },
     { value: 50, label: 'Reviews' },
   ];
 
-  items = [
+  items: any = [
     {
       image: '/assets/images/couch.jpeg',
       title: 'Couch',
