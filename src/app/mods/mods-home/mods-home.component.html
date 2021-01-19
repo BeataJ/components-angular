@@ -1,5 +1,6 @@
 <app-divider>Modal</app-divider>
 <button (click)="onClick()">Show Modal</button>
 <app-modal (close)="onClick()" *ngIf="modalOpen">
+  <div modalTitle>I am REUSABLE TITLE</div>
   <p>I am a REUSABLE modal window!!</p>
 </app-modal>
