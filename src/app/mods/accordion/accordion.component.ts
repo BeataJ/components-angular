@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./accordion.component.css'],
 })
 export class AccordionComponent implements OnInit {
-  @Input() items = [];
+  @Input() items: any = [];
 
   constructor() {}
 
